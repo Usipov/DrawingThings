@@ -18,7 +18,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    RectView *view = [[RectView alloc] initWithFrame: self.window.bounds];
+    RectView *view = [[RectView alloc] initWithFrame: CGRectInset(self.window.bounds, 100, 100)];
     [self.window addSubview: view];
     return YES;
 }
