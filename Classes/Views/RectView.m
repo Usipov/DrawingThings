@@ -12,7 +12,7 @@
     BOOL _drawFill;
     BOOL _drawFillInnerShadow;
     BOOL _drawFillOuterShadow;
-    BOOL _drawStroke;
+    BOOL _drawStroke; 
 }
 
 @end
