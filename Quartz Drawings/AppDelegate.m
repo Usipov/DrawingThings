@@ -19,10 +19,9 @@
     [self.window makeKeyAndVisible];
     
     RectView *view = [[RectView alloc] initWithFrame: CGRectInset(self.window.bounds, 110, 110)];
+    [self.window addSubview: view];
     
     NSLog(@"Hello, branch \'update branch\'");
-    
-    [self.window addSubview: view];
     return YES;
 }
 
