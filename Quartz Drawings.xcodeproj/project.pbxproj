@@ -77,10 +77,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22A194B518853A490065F2EB /* Images */ = {
+		22A194B518853A490065F2EB /* Images container */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = "Images container";
 			path = Images;
 			sourceTree = SOURCE_ROOT;
 		};
@@ -122,7 +123,7 @@
 				22B33EF61883F6A9009D8AAF /* RectView.h */,
 				22B33EF71883F6A9009D8AAF /* RectView.m */,
 				22B33ED91883F37C009D8AAF /* Images.xcassets */,
-				22A194B518853A490065F2EB /* Images */,
+				22A194B518853A490065F2EB /* Images container */,
 				22B33ECE1883F37C009D8AAF /* Supporting Files */,
 			);
 			path = "Quartz Drawings";
