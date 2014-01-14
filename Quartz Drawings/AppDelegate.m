@@ -18,7 +18,10 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    RectView *view = [[RectView alloc] initWithFrame: CGRectInset(self.window.bounds, 100, 100)];
+    RectView *view = [[RectView alloc] initWithFrame: CGRectInset(self.window.bounds, 110, 110)];
+    
+    NSLog(@"Hello, branch \'update branch\'");
+    
     [self.window addSubview: view];
     return YES;
 }
