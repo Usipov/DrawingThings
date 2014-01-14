@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		22A194BD188547290065F2EB /* UIView+Drawings.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A194BC188547290065F2EB /* UIView+Drawings.m */; };
-		22A194C21885609F0065F2EB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C11885609F0065F2EB /* 1.png */; };
-		22A194C418856C180065F2EB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C318856C180065F2EB /* 2.png */; };
 		22A194C21885609F0065F2EB /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C11885609F0065F2EB /* 11.png */; };
 		22A194C418856C180065F2EB /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C318856C180065F2EB /* 22.png */; };
 		22A194C8188575FB0065F2EB /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C7188575FB0065F2EB /* 33.png */; };
@@ -41,8 +39,6 @@
 /* Begin PBXFileReference section */
 		22A194BB188547290065F2EB /* UIView+Drawings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Drawings.h"; path = "../Classes/UIView+Drawings.h"; sourceTree = "<group>"; };
 		22A194BC188547290065F2EB /* UIView+Drawings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Drawings.m"; path = "../Classes/UIView+Drawings.m"; sourceTree = "<group>"; };
-		22A194C11885609F0065F2EB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		22A194C318856C180065F2EB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		22A194C11885609F0065F2EB /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
 		22A194C318856C180065F2EB /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
 		22A194C7188575FB0065F2EB /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
@@ -108,6 +104,13 @@
 			name = "Main Screen";
 			sourceTree = "<group>";
 		};
+		22A194C9188579A60065F2EB /* Group for tmp developments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Group for tmp developments";
+			sourceTree = "<group>";
+		};
 		22B33EBB1883F37C009D8AAF = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +151,7 @@
 				22A194BB188547290065F2EB /* UIView+Drawings.h */,
 				22A194BC188547290065F2EB /* UIView+Drawings.m */,
 				22B33ED91883F37C009D8AAF /* Images.xcassets */,
+				22A194C9188579A60065F2EB /* Group for tmp developments */,
 				22A194C01885609F0065F2EB /* Graphics */,
 				22B33ECE1883F37C009D8AAF /* Supporting Files */,
 			);
