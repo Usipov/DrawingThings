@@ -22,12 +22,6 @@
     RectView *view = [[RectView alloc] initWithFrame: CGRectInset(self.window.bounds, 110, 110)];
     [self.window addSubview: view];
     
-    NSLog(@"Hello, branch \'master\'");
-    NSLog(@"Hello, branch \'update branch\'");
-
-    //on a dev branch
-    //will add some images
-    
     return YES;
 }
 

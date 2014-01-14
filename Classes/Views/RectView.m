@@ -8,12 +8,12 @@
 
 #import "RectView.h"
 
+//will add gradients today, and circle views;
+
 @interface RectView () {
-    BOOL _drawFill;
-    BOOL _drawFillInnerShadow;
-    BOOL _drawFillOuterShadow;
-    BOOL _drawStroke;
+    
 }
+
 -(void)drawPath: (UIBezierPath *)path filledWithColor: (UIColor *)fillColor;
 -(void)drawPath: (UIBezierPath *)path filledWithColor: (UIColor *)fillColor outerShadowColor: (UIColor *)shadowColor shadowOffset: (CGSize)offset shadowBlurRadius: (CGFloat)radius inContext: (CGContextRef)context;
 -(void)drawInnerShadowForPath: (UIBezierPath *)path innerShadowColor: (UIColor *)shadowColor shadowOffset: (CGSize)offset shadowBlurRadius: (CGFloat)radius inContext: (CGContextRef)context;
