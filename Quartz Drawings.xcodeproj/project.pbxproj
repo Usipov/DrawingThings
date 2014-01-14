@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22A194B01885321D0065F2EB /* eoub-test-icon_76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194AF1885321D0065F2EB /* eoub-test-icon_76@2x.png */; };
+		22A194BD188547290065F2EB /* UIView+Drawings.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A194BC188547290065F2EB /* UIView+Drawings.m */; };
 		22B33EC81883F37C009D8AAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33EC71883F37C009D8AAF /* Foundation.framework */; };
 		22B33ECA1883F37C009D8AAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33EC91883F37C009D8AAF /* CoreGraphics.framework */; };
 		22B33ECC1883F37C009D8AAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33ECB1883F37C009D8AAF /* UIKit.framework */; };
@@ -20,7 +21,7 @@
 		22B33EE31883F37C009D8AAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33ECB1883F37C009D8AAF /* UIKit.framework */; };
 		22B33EEB1883F37C009D8AAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22B33EE91883F37C009D8AAF /* InfoPlist.strings */; };
 		22B33EED1883F37C009D8AAF /* Quartz_DrawingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B33EEC1883F37C009D8AAF /* Quartz_DrawingsTests.m */; };
-		22B33EF81883F6A9009D8AAF /* RectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B33EF71883F6A9009D8AAF /* RectView.m */; };
+		22B33EF81883F6A9009D8AAF /* ExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B33EF71883F6A9009D8AAF /* ExampleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 
 /* Begin PBXFileReference section */
 		22A194AF1885321D0065F2EB /* eoub-test-icon_76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eoub-test-icon_76@2x.png"; sourceTree = "<group>"; };
+		22A194BB188547290065F2EB /* UIView+Drawings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Drawings.h"; path = "../Classes/UIView+Drawings.h"; sourceTree = "<group>"; };
+		22A194BC188547290065F2EB /* UIView+Drawings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Drawings.m"; path = "../Classes/UIView+Drawings.m"; sourceTree = "<group>"; };
 		22B33EC41883F37C009D8AAF /* Quartz Drawings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz Drawings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B33EC71883F37C009D8AAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22B33EC91883F37C009D8AAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,8 +54,8 @@
 		22B33EE81883F37C009D8AAF /* Quartz DrawingsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quartz DrawingsTests-Info.plist"; sourceTree = "<group>"; };
 		22B33EEA1883F37C009D8AAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22B33EEC1883F37C009D8AAF /* Quartz_DrawingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz_DrawingsTests.m; sourceTree = "<group>"; };
-		22B33EF61883F6A9009D8AAF /* RectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RectView.h; path = Classes/Views/RectView.h; sourceTree = SOURCE_ROOT; };
-		22B33EF71883F6A9009D8AAF /* RectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RectView.m; path = Classes/Views/RectView.m; sourceTree = SOURCE_ROOT; };
+		22B33EF61883F6A9009D8AAF /* ExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleView.h; path = Classes/Views/ExampleView.h; sourceTree = SOURCE_ROOT; };
+		22B33EF71883F6A9009D8AAF /* ExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleView.m; path = Classes/Views/ExampleView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +117,10 @@
 			children = (
 				22B33ED61883F37C009D8AAF /* AppDelegate.h */,
 				22B33ED71883F37C009D8AAF /* AppDelegate.m */,
-				22B33EF61883F6A9009D8AAF /* RectView.h */,
-				22B33EF71883F6A9009D8AAF /* RectView.m */,
+				22B33EF61883F6A9009D8AAF /* ExampleView.h */,
+				22B33EF71883F6A9009D8AAF /* ExampleView.m */,
+				22A194BB188547290065F2EB /* UIView+Drawings.h */,
+				22A194BC188547290065F2EB /* UIView+Drawings.m */,
 				22B33ED91883F37C009D8AAF /* Images.xcassets */,
 				22A194AF1885321D0065F2EB /* eoub-test-icon_76@2x.png */,
 				22B33ECE1883F37C009D8AAF /* Supporting Files */,
@@ -248,9 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22B33EF81883F6A9009D8AAF /* RectView.m in Sources */,
+				22B33EF81883F6A9009D8AAF /* ExampleView.m in Sources */,
 				22B33ED81883F37C009D8AAF /* AppDelegate.m in Sources */,
 				22B33ED41883F37C009D8AAF /* main.m in Sources */,
+				22A194BD188547290065F2EB /* UIView+Drawings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
