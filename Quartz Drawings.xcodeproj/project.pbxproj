@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22A194B01885321D0065F2EB /* eoub-test-icon_76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194AF1885321D0065F2EB /* eoub-test-icon_76@2x.png */; };
+		22A194B2188532DE0065F2EB /* eoub-test-icon_76@2x 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194B1188532DE0065F2EB /* eoub-test-icon_76@2x 2.png */; };
 		22B33EC81883F37C009D8AAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33EC71883F37C009D8AAF /* Foundation.framework */; };
 		22B33ECA1883F37C009D8AAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33EC91883F37C009D8AAF /* CoreGraphics.framework */; };
 		22B33ECC1883F37C009D8AAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33ECB1883F37C009D8AAF /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		22A194AF1885321D0065F2EB /* eoub-test-icon_76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eoub-test-icon_76@2x.png"; sourceTree = "<group>"; };
+		22A194B1188532DE0065F2EB /* eoub-test-icon_76@2x 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eoub-test-icon_76@2x 2.png"; sourceTree = "<group>"; };
 		22B33EC41883F37C009D8AAF /* Quartz Drawings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz Drawings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B33EC71883F37C009D8AAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22B33EC91883F37C009D8AAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +120,7 @@
 				22B33EF71883F6A9009D8AAF /* RectView.m */,
 				22B33ED91883F37C009D8AAF /* Images.xcassets */,
 				22A194AF1885321D0065F2EB /* eoub-test-icon_76@2x.png */,
+				22A194B1188532DE0065F2EB /* eoub-test-icon_76@2x 2.png */,
 				22B33ECE1883F37C009D8AAF /* Supporting Files */,
 			);
 			path = "Quartz Drawings";
@@ -230,6 +233,7 @@
 				22B33ED21883F37C009D8AAF /* InfoPlist.strings in Resources */,
 				22A194B01885321D0065F2EB /* eoub-test-icon_76@2x.png in Resources */,
 				22B33EDA1883F37C009D8AAF /* Images.xcassets in Resources */,
+				22A194B2188532DE0065F2EB /* eoub-test-icon_76@2x 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
