@@ -94,18 +94,11 @@
 			path = Graphics;
 			sourceTree = "<group>";
 		};
-		22A194C518856D270065F2EB /* new stupid group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "new stupid group";
-            };
 		22A194C618856D680065F2EB /* Main Screen */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "Main Screen";
-
 			sourceTree = "<group>";
 		};
 		22B33EBB1883F37C009D8AAF = {
@@ -148,7 +141,6 @@
 				22A194BB188547290065F2EB /* UIView+Drawings.h */,
 				22A194BC188547290065F2EB /* UIView+Drawings.m */,
 				22B33ED91883F37C009D8AAF /* Images.xcassets */,
-				22A194C518856D270065F2EB /* new stupid group */,
 				22A194C01885609F0065F2EB /* Graphics */,
 				22B33ECE1883F37C009D8AAF /* Supporting Files */,
 			);
