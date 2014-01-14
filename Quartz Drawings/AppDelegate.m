@@ -20,6 +20,8 @@
     
     RectView *view = [[RectView alloc] initWithFrame: CGRectInset(self.window.bounds, 100, 100)];
     [self.window addSubview: view];
+    
+    NSLog(@"Hello, branch \'master\'");
     return YES;
 }
 
