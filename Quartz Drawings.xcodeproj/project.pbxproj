@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		22A194BD188547290065F2EB /* UIView+Drawings.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A194BC188547290065F2EB /* UIView+Drawings.m */; };
+=======
+		22A194C21885609F0065F2EB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C11885609F0065F2EB /* 1.png */; };
+>>>>>>> graphics-branch
 		22B33EC81883F37C009D8AAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33EC71883F37C009D8AAF /* Foundation.framework */; };
 		22B33ECA1883F37C009D8AAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33EC91883F37C009D8AAF /* CoreGraphics.framework */; };
 		22B33ECC1883F37C009D8AAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33ECB1883F37C009D8AAF /* UIKit.framework */; };
@@ -34,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		22A194BB188547290065F2EB /* UIView+Drawings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Drawings.h"; path = "../Classes/UIView+Drawings.h"; sourceTree = "<group>"; };
 		22A194BC188547290065F2EB /* UIView+Drawings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Drawings.m"; path = "../Classes/UIView+Drawings.m"; sourceTree = "<group>"; };
 
+=======
+		22A194C11885609F0065F2EB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+>>>>>>> graphics-branch
 		22B33EC41883F37C009D8AAF /* Quartz Drawings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz Drawings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B33EC71883F37C009D8AAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22B33EC91883F37C009D8AAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,13 +89,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22A194B518853A490065F2EB /* Images container */ = {
+		22A194C01885609F0065F2EB /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				22A194C11885609F0065F2EB /* 1.png */,
 			);
-			name = "Images container";
-			path = Images;
-			sourceTree = SOURCE_ROOT;
+			path = Graphics;
+			sourceTree = "<group>";
 		};
 		22B33EBB1883F37C009D8AAF = {
 			isa = PBXGroup;
@@ -129,7 +137,7 @@
 				22A194BB188547290065F2EB /* UIView+Drawings.h */,
 				22A194BC188547290065F2EB /* UIView+Drawings.m */,
 				22B33ED91883F37C009D8AAF /* Images.xcassets */,
-				22A194B518853A490065F2EB /* Images container */,
+				22A194C01885609F0065F2EB /* Graphics */,
 				22B33ECE1883F37C009D8AAF /* Supporting Files */,
 			);
 			path = "Quartz Drawings";
@@ -239,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A194C21885609F0065F2EB /* 1.png in Resources */,
 				22B33ED21883F37C009D8AAF /* InfoPlist.strings in Resources */,
 				22B33EDA1883F37C009D8AAF /* Images.xcassets in Resources */,
 			);
