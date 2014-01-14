@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "RectView.h"
+#import "ExampleView.h"
 
 @implementation AppDelegate
 
@@ -19,9 +19,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    RectView *view = [[RectView alloc] initWithFrame: CGRectInset(self.window.bounds, 110, 110)];
+    ExampleView *view = [[ExampleView alloc] initWithFrame: CGRectInset(self.window.bounds, 100, 100)];
     [self.window addSubview: view];
-    
+
     return YES;
 }
 

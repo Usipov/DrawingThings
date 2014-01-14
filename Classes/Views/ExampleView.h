@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RectView : UIView
+@interface ExampleView : UIView
 
 @end
