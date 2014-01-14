@@ -99,6 +99,7 @@
 			children = (
 			);
 			name = "new stupid group";
+            };
 		22A194C618856D680065F2EB /* Main Screen */ = {
 			isa = PBXGroup;
 			children = (
