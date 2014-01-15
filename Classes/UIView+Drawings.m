@@ -21,10 +21,76 @@
 {
     CGContextSaveGState(context);
     CGContextSetShadowWithColor(context, offset, radius, shadowColor.CGColor);
-    [fillColor setFill];
-    [path fill];
+    [self drawPath: path filledWithColor: fillColor];
     CGContextRestoreGState(context);
 }
+
+
+
+-(void)drawPath:(UIBezierPath *)path linearlyGradientedWithColors: (NSArray *)fillColors locations: (CGFloat *)locations count: (NSUInteger)locationsCount inContext: (CGContextRef)context colorSpace: (CGColorSpaceRef)colorSpace
+{
+    CGPoint startPoint = CGPointMake(CGRectGetMidX(path.bounds), CGRectGetMinY(path.bounds));
+    CGPoint endPoint = CGPointMake(CGRectGetMidX(path.bounds), CGRectGetMaxY(path.bounds));
+    [self drawPath: path linearlyGradientedWithColors: fillColors locations: locations count: locationsCount startPoint: startPoint endPoint: endPoint inContext: context colorSpace: colorSpace];
+}
+
+-(void)drawPath:(UIBezierPath *)path linearlyGradientedWithColors: (NSArray *)fillColors locations: (CGFloat *)locations count: (NSUInteger)locationsCount startPoint: (CGPoint)startPoint endPoint: (CGPoint)endPoint inContext: (CGContextRef)context colorSpace: (CGColorSpaceRef)colorSpace
+{
+    NSAssert(fillColors.count == locationsCount, @"Can't draw gradient");
+    
+    CGPoint aStartPoint = startPoint;
+    if (CGPointEqualToPoint(aStartPoint, CGPointZero)) {
+        aStartPoint = CGPointMake(CGRectGetMidX(path.bounds), CGRectGetMinY(path.bounds));
+    }
+    
+    CGPoint aEndPoint = endPoint;
+    if (CGPointEqualToPoint(aEndPoint, CGPointZero)) {
+        aEndPoint = CGPointMake(CGRectGetMidX(path.bounds), CGRectGetMaxY(path.bounds));
+    }
+    
+    CGGradientRef gradient = CGGradientCreateWithColors(colorSpace, (CFArrayRef)fillColors, locations);
+    CGContextSaveGState(context);
+    [path addClip];
+    CGContextDrawLinearGradient(context, gradient, aStartPoint, aEndPoint, kCGGradientDrawsBeforeStartLocation | kCGGradientDrawsAfterEndLocation);
+    CGContextRestoreGState(context);
+    CGGradientRelease(gradient);
+}
+
+
+
+-(void)drawPath:(UIBezierPath *)path circularlyGradientedWithColors: (NSArray *)fillColors locations: (CGFloat *)locations count: (NSUInteger)locationsCount inContext: (CGContextRef)context colorSpace: (CGColorSpaceRef)colorSpace
+{
+    CGPoint startPoint = CGPointMake(CGRectGetMidX(path.bounds), CGRectGetMidY(path.bounds));
+    CGFloat startRadius = 0.0;
+    
+    CGPoint endPoint = startPoint;
+    CGFloat endRadius = MAX(CGRectGetWidth(path.bounds), CGRectGetHeight(path.bounds));
+    
+    [self drawPath: path circularlyGradientedWithColors: fillColors locations: locations count: locationsCount startCenter: startPoint startRadius: startRadius endCenter: endPoint endRadius: endRadius inContext: context colorSpace: colorSpace];
+}
+
+-(void)drawPath:(UIBezierPath *)path circularlyGradientedWithColors: (NSArray *)fillColors locations: (CGFloat *)locations count: (NSUInteger)locationsCount startCenter: (CGPoint)startPoint startRadius: (CGFloat)startRadius endCenter: (CGPoint)endPoint endRadius: (CGFloat)endRadius inContext: (CGContextRef)context colorSpace: (CGColorSpaceRef)colorSpace;
+{
+    NSAssert(fillColors.count == locationsCount, @"Can't draw gradient");
+    
+    CGPoint aStartPoint = startPoint;
+    if (CGPointEqualToPoint(aStartPoint, CGPointZero)) {
+        aStartPoint = CGPointMake(CGRectGetMidX(path.bounds), CGRectGetMinY(path.bounds));
+    }
+    
+    CGPoint aEndPoint = endPoint;
+    if (CGPointEqualToPoint(aEndPoint, CGPointZero)) {
+        aEndPoint = CGPointMake(CGRectGetMidX(path.bounds), CGRectGetMaxY(path.bounds));
+    }
+    
+    CGGradientRef gradient = CGGradientCreateWithColors(colorSpace, (CFArrayRef)fillColors, locations);
+    CGContextSaveGState(context);
+    [path addClip];
+    CGContextDrawRadialGradient(context, gradient, aStartPoint, startRadius, endPoint, endRadius, kCGGradientDrawsBeforeStartLocation | kCGGradientDrawsAfterEndLocation);
+    CGContextRestoreGState(context);
+    CGGradientRelease(gradient);
+}
+
 
 
 -(void)drawInnerShadowForPath: (UIBezierPath *)path innerShadowColor: (UIColor *)shadowColor shadowOffset: (CGSize)offset shadowBlurRadius: (CGFloat)radius inContext: (CGContextRef)context

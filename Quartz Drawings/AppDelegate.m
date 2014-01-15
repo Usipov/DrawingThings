@@ -19,7 +19,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    ExampleView *view = [[ExampleView alloc] initWithFrame: CGRectInset(self.window.bounds, 100, 100)];
+    ExampleView *view = [[ExampleView alloc] initWithFrame: CGRectInset(self.window.bounds, 5, 15)];
     [self.window addSubview: view];
 
     return YES;

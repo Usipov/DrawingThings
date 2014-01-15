@@ -113,7 +113,7 @@
 				22A194CF1886698C0065F2EB /* Empty class group */,
 			);
 			name = "Group for tmp developments";
-			sourceTree = "<unknown>";
+			sourceTree = "<group>";
 		};
 		22A194CA188579D40065F2EB /* Detail Screen */ = {
 			isa = PBXGroup;
@@ -442,6 +442,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quartz Drawings/Quartz Drawings-Prefix.pch";
 				INFOPLIST_FILE = "Quartz Drawings/Quartz Drawings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -455,6 +456,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quartz Drawings/Quartz Drawings-Prefix.pch";
 				INFOPLIST_FILE = "Quartz Drawings/Quartz Drawings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
