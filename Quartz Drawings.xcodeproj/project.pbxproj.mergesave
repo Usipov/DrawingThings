@@ -11,7 +11,6 @@
 		22A194C21885609F0065F2EB /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C11885609F0065F2EB /* 11.png */; };
 		22A194C418856C180065F2EB /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C318856C180065F2EB /* 22.png */; };
 		22A194C8188575FB0065F2EB /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C7188575FB0065F2EB /* 33.png */; };
-		22A194CD188667CF0065F2EB /* EmptyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A194CC188667CF0065F2EB /* EmptyClass.m */; };
 		22B33EC81883F37C009D8AAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33EC71883F37C009D8AAF /* Foundation.framework */; };
 		22B33ECA1883F37C009D8AAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33EC91883F37C009D8AAF /* CoreGraphics.framework */; };
 		22B33ECC1883F37C009D8AAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33ECB1883F37C009D8AAF /* UIKit.framework */; };
@@ -43,8 +42,6 @@
 		22A194C11885609F0065F2EB /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
 		22A194C318856C180065F2EB /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
 		22A194C7188575FB0065F2EB /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
-		22A194CB188667CF0065F2EB /* EmptyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmptyClass.h; path = Classes/EmptyClass.h; sourceTree = SOURCE_ROOT; };
-		22A194CC188667CF0065F2EB /* EmptyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmptyClass.m; path = Classes/EmptyClass.m; sourceTree = SOURCE_ROOT; };
 		22B33EC41883F37C009D8AAF /* Quartz Drawings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz Drawings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B33EC71883F37C009D8AAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22B33EC91883F37C009D8AAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -108,35 +105,19 @@
 			name = "Main Screen";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		22A194C9188579A60065F2EB /* Group for tmp developments */ = {
 			isa = PBXGroup;
 			children = (
-				22A194CF1886698C0065F2EB /* Empty class group */,
 			);
 			name = "Group for tmp developments";
-			sourceTree = "<unknown>";
-		};
+=======
 		22A194CA188579D40065F2EB /* Detail Screen */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "Detail Screen";
-			sourceTree = "<group>";
-		};
-		22A194CE188669820065F2EB /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
-			sourceTree = "<group>";
-		};
-		22A194CF1886698C0065F2EB /* Empty class group */ = {
-			isa = PBXGroup;
-			children = (
-				22A194CB188667CF0065F2EB /* EmptyClass.h */,
-				22A194CC188667CF0065F2EB /* EmptyClass.m */,
-			);
-			name = "Empty class group";
+>>>>>>> graphics-branch
 			sourceTree = "<group>";
 		};
 		22B33EBB1883F37C009D8AAF = {
@@ -179,7 +160,6 @@
 				22A194BB188547290065F2EB /* UIView+Drawings.h */,
 				22A194BC188547290065F2EB /* UIView+Drawings.m */,
 				22B33ED91883F37C009D8AAF /* Images.xcassets */,
-				22A194CE188669820065F2EB /* New Group */,
 				22A194C9188579A60065F2EB /* Group for tmp developments */,
 				22A194C01885609F0065F2EB /* Graphics */,
 				22B33ECE1883F37C009D8AAF /* Supporting Files */,
@@ -315,7 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B33EF81883F6A9009D8AAF /* ExampleView.m in Sources */,
-				22A194CD188667CF0065F2EB /* EmptyClass.m in Sources */,
 				22B33ED81883F37C009D8AAF /* AppDelegate.m in Sources */,
 				22B33ED41883F37C009D8AAF /* main.m in Sources */,
 				22A194BD188547290065F2EB /* UIView+Drawings.m in Sources */,
