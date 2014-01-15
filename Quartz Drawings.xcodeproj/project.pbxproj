@@ -103,7 +103,6 @@
 			children = (
 				22A194C11885609F0065F2EB /* 11.png */,
 				22A194C318856C180065F2EB /* 22.png */,
-				22A194C7188575FB0065F2EB /* 33.png */,
 			);
 			name = "Main Screen";
 			sourceTree = "<group>";
@@ -119,6 +118,7 @@
 		22A194CA188579D40065F2EB /* Detail Screen */ = {
 			isa = PBXGroup;
 			children = (
+				22A194C7188575FB0065F2EB /* 33.png */,
 			);
 			name = "Detail Screen";
 			sourceTree = "<group>";
