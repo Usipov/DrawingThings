@@ -105,9 +105,6 @@
         CGFloat strokePhase = 0.0f;
         [self drawPath: path strokedWithColor: strokeColor lineWidth: strokeLineWidth lineDash: strokePattern count: strokePatternCount phase: strokePhase];
     }
-    
-    
-    
 }
 
 #pragma mark - privates
