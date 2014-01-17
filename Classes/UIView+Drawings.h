@@ -14,6 +14,14 @@
 -(void)drawPath: (UIBezierPath *)path filledWithColor: (UIColor *)fillColor;
 -(void)drawPath: (UIBezierPath *)path filledWithColor: (UIColor *)fillColor outerShadowColor: (UIColor *)shadowColor shadowOffset: (CGSize)offset shadowBlurRadius: (CGFloat)radius inContext: (CGContextRef)context;
 
+//filling with a linear gradient
+-(void)drawPath:(UIBezierPath *)path linearlyGradientedWithColors: (NSArray *)fillColors locations: (CGFloat *)locations count: (NSUInteger)locationsCount inContext: (CGContextRef)context colorSpace: (CGColorSpaceRef)colorSpace;
+-(void)drawPath:(UIBezierPath *)path linearlyGradientedWithColors: (NSArray *)fillColors locations: (CGFloat *)locations count: (NSUInteger)locationsCount startPoint: (CGPoint)startPoint endPoint: (CGPoint)endPoint inContext: (CGContextRef)context colorSpace: (CGColorSpaceRef)colorSpace;
+
+//filling with a circular gradient
+-(void)drawPath:(UIBezierPath *)path circularlyGradientedWithColors: (NSArray *)fillColors locations: (CGFloat *)locations count: (NSUInteger)locationsCount inContext: (CGContextRef)context colorSpace: (CGColorSpaceRef)colorSpace;
+-(void)drawPath:(UIBezierPath *)path circularlyGradientedWithColors: (NSArray *)fillColors locations: (CGFloat *)locations count: (NSUInteger)locationsCount startCenter: (CGPoint)startPoint startRadius: (CGFloat)startRadius endCenter: (CGPoint)endPoint endRadius: (CGFloat)endRadius inContext: (CGContextRef)context colorSpace: (CGColorSpaceRef)colorSpace;
+
 //inner shading a path
 -(void)drawInnerShadowForPath: (UIBezierPath *)path innerShadowColor: (UIColor *)shadowColor shadowOffset: (CGSize)offset shadowBlurRadius: (CGFloat)radius inContext: (CGContextRef)context;
 
