@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
+		22A194B01885321D0065F2EB /* eoub-test-icon_76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194AF1885321D0065F2EB /* eoub-test-icon_76@2x.png */; };
 		22A194BD188547290065F2EB /* UIView+Drawings.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A194BC188547290065F2EB /* UIView+Drawings.m */; };
-		22A194C21885609F0065F2EB /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C11885609F0065F2EB /* 11.png */; };
-		22A194C418856C180065F2EB /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C318856C180065F2EB /* 22.png */; };
-		22A194C8188575FB0065F2EB /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A194C7188575FB0065F2EB /* 33.png */; };
+		22A194BD188547290065F2EB /* UIView+Drawings.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A194BC188547290065F2EB /* UIView+Drawings.m */; };
 		22B33EC81883F37C009D8AAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33EC71883F37C009D8AAF /* Foundation.framework */; };
 		22B33ECA1883F37C009D8AAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33EC91883F37C009D8AAF /* CoreGraphics.framework */; };
 		22B33ECC1883F37C009D8AAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B33ECB1883F37C009D8AAF /* UIKit.framework */; };
@@ -37,11 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+
+		22A194AF1885321D0065F2EB /* eoub-test-icon_76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eoub-test-icon_76@2x.png"; sourceTree = "<group>"; };
 		22A194BB188547290065F2EB /* UIView+Drawings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Drawings.h"; path = "../Classes/UIView+Drawings.h"; sourceTree = "<group>"; };
 		22A194BC188547290065F2EB /* UIView+Drawings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Drawings.m"; path = "../Classes/UIView+Drawings.m"; sourceTree = "<group>"; };
-		22A194C11885609F0065F2EB /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
-		22A194C318856C180065F2EB /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
-		22A194C7188575FB0065F2EB /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
+		22A194BB188547290065F2EB /* UIView+Drawings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Drawings.h"; path = "../Classes/UIView+Drawings.h"; sourceTree = "<group>"; };
+		22A194BC188547290065F2EB /* UIView+Drawings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Drawings.m"; path = "../Classes/UIView+Drawings.m"; sourceTree = "<group>"; };
 		22B33EC41883F37C009D8AAF /* Quartz Drawings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz Drawings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B33EC71883F37C009D8AAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22B33EC91883F37C009D8AAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,40 +87,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22A194C01885609F0065F2EB /* Graphics */ = {
-			isa = PBXGroup;
-			children = (
-				22A194CA188579D40065F2EB /* Detail Screen */,
-				22A194C618856D680065F2EB /* Main Screen */,
-			);
-			path = Graphics;
-			sourceTree = "<group>";
-		};
-		22A194C618856D680065F2EB /* Main Screen */ = {
-			isa = PBXGroup;
-			children = (
-				22A194C11885609F0065F2EB /* 11.png */,
-				22A194C318856C180065F2EB /* 22.png */,
-				22A194C7188575FB0065F2EB /* 33.png */,
-			);
-			name = "Main Screen";
-			sourceTree = "<group>";
-		};
-<<<<<<< HEAD
-		22A194C9188579A60065F2EB /* Group for tmp developments */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Group for tmp developments";
-=======
-		22A194CA188579D40065F2EB /* Detail Screen */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Detail Screen";
->>>>>>> graphics-branch
-			sourceTree = "<group>";
-		};
 		22B33EBB1883F37C009D8AAF = {
 			isa = PBXGroup;
 			children = (
@@ -160,8 +127,12 @@
 				22A194BB188547290065F2EB /* UIView+Drawings.h */,
 				22A194BC188547290065F2EB /* UIView+Drawings.m */,
 				22B33ED91883F37C009D8AAF /* Images.xcassets */,
-				22A194C9188579A60065F2EB /* Group for tmp developments */,
+<<<<<<< HEAD
+
+				22A194B518853A490065F2EB /* Images container */,
 				22A194C01885609F0065F2EB /* Graphics */,
+=======
+>>>>>>> update-branch
 				22B33ECE1883F37C009D8AAF /* Supporting Files */,
 			);
 			path = "Quartz Drawings";
@@ -271,10 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22A194C8188575FB0065F2EB /* 33.png in Resources */,
-				22A194C21885609F0065F2EB /* 11.png in Resources */,
 				22B33ED21883F37C009D8AAF /* InfoPlist.strings in Resources */,
-				22A194C418856C180065F2EB /* 22.png in Resources */,
 				22B33EDA1883F37C009D8AAF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +389,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quartz Drawings/Quartz Drawings-Prefix.pch";
 				INFOPLIST_FILE = "Quartz Drawings/Quartz Drawings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -434,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quartz Drawings/Quartz Drawings-Prefix.pch";
 				INFOPLIST_FILE = "Quartz Drawings/Quartz Drawings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
